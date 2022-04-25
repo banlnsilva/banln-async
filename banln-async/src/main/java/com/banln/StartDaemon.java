@@ -33,7 +33,7 @@ public class StartDaemon implements InitializingBean {
 		        future.thenAccept(p -> log.info("latte's price is : " + p));
 		        log.info("non blocking 2 : ...");
 				
-				log.info("111111111111111111111111222222222222222222222222>>>" + ii);
+				log.info("1111111111111111111111112222222222222222222222223333333333333>>>" + ii);
 				Thread.sleep(10);
 				ii++;
 			}
